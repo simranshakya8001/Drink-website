@@ -1,0 +1,856 @@
+                    body {
+                        padding: 0%;
+                        margin: 0%;
+                        background-color: #D6EAF8;
+                    }
+                    
+                    @font-face {
+                        font-family: simran;
+                        src: url(KOMIKAX_.ttf);
+                    }
+                    
+                    .list ul {
+                        display: flex;
+                        justify-content: center;
+                        /* horizontally center */
+                        align-items: center;
+                        /* vertically center */
+                        list-style: none;
+                        height: 100px;
+                        /* vertical center dikhane ke liye height dena zaruri hai */
+                        gap: 50px;
+                        margin: 0%;
+                        padding: 0;
+                        font-size: 20px;
+                        font-family: sans-serif;
+                        font-weight: bold;
+                        color: #301934;
+                    }
+                    
+                    .nim {
+                        font-family: simran;
+                        color: #C71585;
+                        position: absolute;
+                        font-size: 20px;
+                        padding: 5px;
+                        margin-top: 0px;
+                        padding-top: 0%;
+                        border-color: #301934;
+                        -webkit-text-stroke: 2px #301934;
+                        /* text ke charo taraf stroke */
+                        top: 0%;
+                    }
+                    
+                    .customer {
+                        position: absolute;
+                        /* right: 30px; */
+                        font-size: 20px;
+                        font-family: sans-serif;
+                        font-weight: bold;
+                        color: #301934;
+                        top: 35px;
+                        margin: 0%;
+                        height: 100px;
+                        right: 40px;
+                    }
+                    
+                    .icon i {
+                        font-size: 20px;
+                        position: absolute;
+                        color: #301934;
+                        right: 20px;
+                        top: 35px;
+                    }
+                    
+                    @font-face {
+                        font-family: undo;
+                        src: url(SMOOTH\ CHEESE.otf);
+                    }
+                    
+                    .just {
+                        position: absolute;
+                        font-size: 80px;
+                        font-weight: bold;
+                        color: #301934;
+                        font-family: undo;
+                        left: 250px;
+                        top: 0px;
+                    }
+                    
+                    .being {
+                        position: absolute;
+                        font-size: 80px;
+                        font-weight: bold;
+                        color: #301934;
+                        font-family: undo;
+                        left: 400px;
+                        top: 90px;
+                    }
+                    
+                    .button {
+                        position: absolute;
+                        padding: 10px;
+                        background-color: white;
+                        font-size: 30px;
+                        font-weight: bold;
+                        top: 240px;
+                        right: 150px;
+                        color: #301934;
+                        border: 5px solid;
+                        /* border ka style & width */
+                        border-color: #301934;
+                        border-radius: 25px;
+                        font-family: sans-serif;
+                    }
+                    
+                    .phone {
+                        position: absolute;
+                        font-family: sans-serif;
+                        font-size: 20px;
+                        font-weight: 600;
+                        color: #301934;
+                        top: 330px;
+                        left: 380px;
+                        justify-content: center;
+                    }
+                    
+                    .image img {
+                        position: absolute;
+                        width: 800px;
+                        height: 800px;
+                        left: 290px;
+                        top: 260px;
+                    }
+                    
+                    .arrow i {
+                        font-size: 20px;
+                        color: #301934;
+                        position: absolute;
+                        top: 510px;
+                        left: 100px;
+                    }
+                    
+                    .arrow1 i {
+                        font-size: 20px;
+                        color: #301934;
+                        position: absolute;
+                        top: 510px;
+                        left: 115px;
+                    }
+                    
+                    .drink {
+                        font-size: 25px;
+                        color: #301934;
+                        position: absolute;
+                        top: 510px;
+                        left: 60px;
+                        font-weight: bold;
+                        font-family: sans-serif;
+                    }
+                    
+                    .summer {
+                        font-size: 25px;
+                        color: #301934;
+                        position: absolute;
+                        top: 550px;
+                        left: 70px;
+                        font-weight: bold;
+                        font-family: sans-serif;
+                    }
+                    
+                    .button1 {
+                        position: absolute;
+                        padding: 10px;
+                        background-color: #FADADD;
+                        font-size: 30px;
+                        font-weight: bold;
+                        top: 700px;
+                        right: 250px;
+                        color: #301934;
+                        border: 3px solid;
+                        /* border ka style & width */
+                        border-color: #301934;
+                        border-radius: 40px;
+                        font-family: sans-serif;
+                    }
+                    
+                    .button2 {
+                        position: absolute;
+                        padding: 10px;
+                        background-color: #FFFFE0;
+                        font-size: 30px;
+                        font-weight: bold;
+                        top: 630px;
+                        right: 200px;
+                        color: #301934;
+                        border: 3px solid;
+                        /* border ka style & width */
+                        border-color: #301934;
+                        border-radius: 40px;
+                        font-family: sans-serif;
+                    }
+                    
+                    .button3 {
+                        position: absolute;
+                        padding: 10px;
+                        background-color: #98FB98;
+                        font-size: 30px;
+                        font-weight: bold;
+                        top: 630px;
+                        right: 50px;
+                        color: #301934;
+                        border: 3px solid;
+                        /* border ka style & width */
+                        border-color: #301934;
+                        border-radius: 40px;
+                        font-family: sans-serif;
+                    }
+                    
+                    .button4 {
+                        position: absolute;
+                        padding: 10px;
+                        background-color: #F08080;
+                        font-size: 30px;
+                        font-weight: bold;
+                        top: 700px;
+                        right: 70px;
+                        color: #301934;
+                        border: 3px solid;
+                        /* border ka style & width */
+                        border-color: #301934;
+                        border-radius: 40px;
+                        font-family: sans-serif;
+                    }
+                    
+                    .house {
+                        position: absolute;
+                        font-size: 15px;
+                        color: #301934;
+                        font-weight: bold;
+                        font-family: sans-serif;
+                        top: 570px;
+                        right: 55px;
+                    }
+                    
+                    .taste {
+                        position: absolute;
+                        top: 1000px;
+                        left: 30px;
+                        font-size: 15px;
+                        font-weight: bold;
+                        font-family: sans-serif;
+                        color: #301934;
+                    }
+                    
+                    .from {
+                        position: absolute;
+                        top: 1000px;
+                        right: 30px;
+                        font-family: sans-serif;
+                        font-size: 20px;
+                        font-weight: bold;
+                        color: #301934;
+                    }
+                    
+                    .be {
+                        position: absolute;
+                        top: 1030px;
+                        right: 30px;
+                        font-family: sans-serif;
+                        font-size: 20px;
+                        font-weight: bold;
+                        color: #301934;
+                    }
+                    
+                    .flower i {
+                        position: absolute;
+                        top: 1020px;
+                        right: 300px;
+                        font-family: sans-serif;
+                        font-size: 50px;
+                        font-weight: bold;
+                        color: #F08080;
+                        /* border: 3px solid;
+                border-color: #301934; */
+                    }
+                    
+                    .blue {
+                        width: 350px;
+                        height: 400px;
+                        background: #1E4D8F;
+                        border: 2px solid #333;
+                        border-radius: 0;
+                        position: absolute;
+                        top: 1100px;
+                        left: 30px;
+                        border-radius: 25px;
+                        box-shadow: -5px -4px 0px 0px rgba(0, 0, 0, 0.75);
+                    }
+                    
+                    .yellow {
+                        width: 350px;
+                        height: 400px;
+                        background: #F4A300;
+                        border: 2px solid #333;
+                        border-radius: 0;
+                        position: absolute;
+                        top: 1100px;
+                        left: 500px;
+                        border-radius: 25px;
+                        box-shadow: -5px -4px 0px 0px rgba(0, 0, 0, 0.75);
+                    }
+                    
+                    .red {
+                        width: 350px;
+                        height: 400px;
+                        background: #F58BC6;
+                        border: 2px solid #333;
+                        border-radius: 0;
+                        position: absolute;
+                        top: 1100px;
+                        right: 30px;
+                        border-radius: 25px;
+                        box-shadow: -5px -4px 0px 0px rgba(0, 0, 0, 0.75);
+                    }
+                    
+                    .zero img {
+                        position: absolute;
+                        width: 600px;
+                        height: 600px;
+                        top: 980px;
+                        /* left: 0%; */
+                        padding: 0%;
+                        margin: 0%;
+                        right: 850px;
+                    }
+                    
+                    .one img {
+                        position: absolute;
+                        width: 550px;
+                        height: 445px;
+                        top: 1040px;
+                        /* left: 0%; */
+                        padding: 0%;
+                        margin: 0%;
+                        right: 400px;
+                    }
+                    
+                    .two img {
+                        position: absolute;
+                        width: 600px;
+                        height: 480px;
+                        top: 1025px;
+                        /* left: 0%; */
+                        padding: 0%;
+                        margin: 0%;
+                        left: 850px;
+                    }
+                    
+                    .white {
+                        position: absolute;
+                        top: 1450px;
+                        left: 40px;
+                        width: 330px;
+                        height: 25px;
+                        background: white;
+                        border: 2px solid #333;
+                        border-radius: 25px;
+                    }
+                    
+                    .blue1 {
+                        position: absolute;
+                        top: 1436px;
+                        padding: 0%;
+                        margin: 0%;
+                        left: 130px;
+                        font-family: sans-serif;
+                        font-weight: bold;
+                        color: #301934;
+                    }
+                    
+                    .white1 {
+                        position: absolute;
+                        top: 1450px;
+                        left: 510px;
+                        width: 330px;
+                        height: 25px;
+                        background: white;
+                        border: 2px solid #333;
+                        border-radius: 25px;
+                    }
+                    
+                    .white2 {
+                        position: absolute;
+                        top: 1450px;
+                        right: 40px;
+                        width: 330px;
+                        height: 25px;
+                        background: white;
+                        border: 2px solid #333;
+                        border-radius: 25px;
+                    }
+                    
+                    .canada {
+                        position: absolute;
+                        top: 1436px;
+                        padding: 0%;
+                        margin: 0%;
+                        left: 630px;
+                        font-family: sans-serif;
+                        font-weight: bold;
+                        color: #301934;
+                    }
+                    
+                    .san {
+                        position: absolute;
+                        top: 1436px;
+                        padding: 0%;
+                        margin: 0%;
+                        right: 130px;
+                        font-family: sans-serif;
+                        font-weight: bold;
+                        color: #301934;
+                    }
+                    
+                    .drink1 {
+                        position: absolute;
+                        top: 1550px;
+                        left: 50px;
+                        font-family: simran;
+                        font-size: 25px;
+                        font-weight: bold;
+                        color: #301934;
+                    }
+                    
+                    .way {
+                        position: absolute;
+                        top: 1630px;
+                        left: 50px;
+                        font-family: simran;
+                        font-size: 25px;
+                        font-weight: bold;
+                        color: #301934;
+                    }
+                    
+                    .get {
+                        position: absolute;
+                        top: 1800px;
+                        left: 50px;
+                        font-family: sans-serif;
+                        font-size: 25px;
+                        font-weight: bold;
+                        color: #301934;
+                    }
+                    
+                    .you {
+                        position: absolute;
+                        top: 1830px;
+                        left: 50px;
+                        font-family: sans-serif;
+                        font-size: 25px;
+                        font-weight: bold;
+                        color: #301934;
+                        width: 500px;
+                    }
+                    
+                    .image1 img {
+                        width: 500px;
+                        height: 500px;
+                        position: absolute;
+                        top: 1550px;
+                        right: 30px;
+                        border-radius: 25px;
+                    }
+                    
+                    .image2 img {
+                        width: 300px;
+                        height: 300px;
+                        position: absolute;
+                        top: 1650px;
+                        right: 450px;
+                        border-radius: 25px;
+                    }
+                    
+                    .lab {
+                        position: absolute;
+                        top: 2250px;
+                        right: 50px;
+                        font-size: 20px;
+                        font-weight: bold;
+                        color: #301934;
+                        width: 500px;
+                        font-family: sans-serif;
+                    }
+                    
+                    .image3 img {
+                        width: 400px;
+                        height: 400px;
+                        position: absolute;
+                        top: 1990px;
+                        left: 220px;
+                        border-radius: 25px;
+                    }
+                    
+                    .hey {
+                        position: absolute;
+                        top: 2050px;
+                        right: 170px;
+                        font-size: 30px;
+                        font-family: simran;
+                        color: #301934;
+                    }
+                    
+                    .turning h1 {
+                        position: absolute;
+                        top: 2500px;
+                        left: 380px;
+                        font-size: 60px;
+                        font-family: simran;
+                        color: #301934;
+                    }
+                    
+                    .into h1 {
+                        position: absolute;
+                        top: 2600px;
+                        left: 450px;
+                        font-size: 60px;
+                        font-family: simran;
+                        color: #301934;
+                    }
+                    
+                    .tolls {
+                        position: absolute;
+                        top: 2800px;
+                        left: 440px;
+                        font-family: sans-serif;
+                        font-size: 20px;
+                        font-weight: bold;
+                        color: #301934;
+                        width: 500px;
+                    }
+                    
+                    .with {
+                        position: absolute;
+                        padding: 10px;
+                        background-color: #D8BFD8;
+                        font-size: 20px;
+                        font-weight: bold;
+                        top: 2920px;
+                        left: 620px;
+                        color: #301934;
+                        border: 3px solid;
+                        /* border ka style & width */
+                        border-color: #301934;
+                        border-radius: 40px;
+                        font-family: sans-serif;
+                    }
+                    
+                    .insight {
+                        position: absolute;
+                        padding: 10px;
+                        background-color: white;
+                        font-size: 30px;
+                        font-weight: bold;
+                        top: 2450px;
+                        left: 590px;
+                        color: #301934;
+                        border: 3px solid;
+                        /* border ka style & width */
+                        border-color: #301934;
+                        border-radius: 40px;
+                        font-family: sans-serif;
+                    }
+                    
+                    .image4 img {
+                        position: absolute;
+                        width: 600px;
+                        height: 600px;
+                        top: 2430px;
+                        left: 850px;
+                    }
+                    
+                    .image5 img {
+                        position: absolute;
+                        width: 850px;
+                        height: 850px;
+                        top: 2300px;
+                        right: 730px;
+                    }
+                    
+                    .image6 img {
+                        position: absolute;
+                        width: 400px;
+                        height: 400px;
+                        top: 3050px;
+                        right: 50px;
+                        border-radius: 25px;
+                    }
+                    
+                    .stody {
+                        position: absolute;
+                        padding: 10px;
+                        background-color: #FFFDD0;
+                        font-size: 30px;
+                        font-weight: bold;
+                        top: 3100px;
+                        left: 100px;
+                        color: #301934;
+                        border: 3px solid;
+                        /* border ka style & width */
+                        border-color: #301934;
+                        border-radius: 40px;
+                        font-family: sans-serif;
+                    }
+                    
+                    .moment {
+                        position: absolute;
+                        top: 3150px;
+                        left: 230px;
+                        font-family: simran;
+                        font-size: 30px;
+                        color: #301934;
+                        width: 500px;
+                    }
+                    
+                    .laptop img {
+                        position: absolute;
+                        top: 3020px;
+                        right: 410px;
+                        width: 60px;
+                        height: 60px;
+                        /* color: #301934; */
+                    }
+                    
+                    .flowers img {
+                        width: 60px;
+                        height: 60px;
+                        position: absolute;
+                        top: 3400px;
+                        right: 50px;
+                        color: #301934;
+                    }
+                    
+                    .profile img {
+                        width: 60px;
+                        height: 60px;
+                        position: absolute;
+                        top: 3430px;
+                        left: 200px;
+                    }
+                    
+                    .pappa {
+                        position: absolute;
+                        font-size: 25px;
+                        font-weight: bold;
+                        top: 3400px;
+                        left: 270px;
+                        font-family: sans-serif;
+                        color: #301934;
+                    }
+                    
+                    .freelancer {
+                        position: absolute;
+                        top: 3460px;
+                        left: 270px;
+                        font-size: 15px;
+                        font-weight: bold;
+                        color: #301934;
+                        font-family: sans-serif;
+                    }
+                    
+                    .social {
+                        position: absolute;
+                        padding: 10px;
+                        background-color: #E0BBE4;
+                        font-size: 20px;
+                        font-weight: bold;
+                        top: 3540px;
+                        left: 290px;
+                        color: #301934;
+                        border: 3px solid;
+                        /* border ka style & width */
+                        border-color: #301934;
+                        border-radius: 40px;
+                        font-family: sans-serif;
+                    }
+                    
+                    .instagram img {
+                        position: absolute;
+                        width: 50px;
+                        height: 50px;
+                        top: 3540px;
+                        left: 550px;
+                        color: #301934;
+                    }
+                    
+                    .hash {
+                        position: absolute;
+                        font-size: 30px;
+                        font-weight: bold;
+                        font-family: sans-serif;
+                        color: #301934;
+                        top: 3550px;
+                        left: 610px;
+                    }
+                    
+                    .image7 img {
+                        width: 200px;
+                        height: 300px;
+                        border-radius: 25px;
+                        top: 3630px;
+                        left: 0%;
+                    }
+                    
+                    .images7 img {
+                        width: 200px;
+                        height: 300px;
+                        border-radius: 25px;
+                        top: 3630px;
+                        left: 210px;
+                    }
+                    
+                    .image8 img {
+                        width: 200px;
+                        height: 300px;
+                        border-radius: 25px;
+                        top: 3630px;
+                        left: 420px;
+                    }
+                    
+                    .image9 img {
+                        width: 200px;
+                        height: 300px;
+                        border-radius: 25px;
+                        top: 3630px;
+                        left: 630px;
+                    }
+                    
+                    .image10 img {
+                        width: 200px;
+                        height: 300px;
+                        border-radius: 25px;
+                        top: 3630px;
+                        left: 840px;
+                    }
+                    
+                    .image11 img {
+                        width: 200px;
+                        height: 300px;
+                        border-radius: 25px;
+                        top: 3630px;
+                        left: 1050px;
+                    }
+                    
+                    .image12 img {
+                        width: 200px;
+                        height: 300px;
+                        border-radius: 25px;
+                        top: 3630px;
+                        left: 1260px;
+                    }
+                    
+                    .using {
+                        position: absolute;
+                        font-size: 40px;
+                        font-family: simran;
+                        font-weight: bold;
+                        color: #301934;
+                        top: 4030px;
+                        left: 130px;
+                    }
+                    
+                    .home1 ul {
+                        position: absolute;
+                        font-size: 20px;
+                        font-family: sans-serif;
+                        font-weight: bold;
+                        color: #301934;
+                        top: 4090px;
+                        left: 100px;
+                    }
+                    
+                    .about {
+                        position: absolute;
+                        font-size: 40px;
+                        font-family: simran;
+                        font-weight: bold;
+                        color: #301934;
+                        top: 4030px;
+                        left: 430px;
+                    }
+                    
+                    .about1 ul {
+                        position: absolute;
+                        font-size: 20px;
+                        font-family: sans-serif;
+                        font-weight: bold;
+                        color: #301934;
+                        top: 4090px;
+                        left: 400px;
+                    }
+                    
+                    .compansion {
+                        position: absolute;
+                        font-size: 40px;
+                        font-family: simran;
+                        font-weight: bold;
+                        color: #301934;
+                        top: 4170px;
+                        left: 130px;
+                    }
+                    
+                    .million {
+                        position: absolute;
+                        font-size: 60px;
+                        font-family: Georgia, 'Times New Roman', Times, serif;
+                        font-weight: bold;
+                        color: #301934;
+                        top: 4370px;
+                        left: 120px;
+                    }
+                    
+                    .shop {
+                        position: absolute;
+                        font-size: 40px;
+                        font-family: simran;
+                        font-weight: bold;
+                        color: #301934;
+                        top: 4170px;
+                        left: 430px;
+                    }
+                    
+                    .shop1 ul {
+                        position: absolute;
+                        font-size: 20px;
+                        font-family: sans-serif;
+                        font-weight: bold;
+                        color: #301934;
+                        top: 4230px;
+                        left: 400px;
+                    }
+                    
+                    .mana {
+                        font-family: simran;
+                        color: #C71585;
+                        position: absolute;
+                        font-size: 180px;
+                        padding: 5px;
+                        margin-top: 0px;
+                        padding-top: 0%;
+                        border-color: #301934;
+                        -webkit-text-stroke: 4px #301934;
+                        /* text ke charo taraf stroke */
+                        top: 3950px;
+                        right: 60px;
+                    }
+                    
+                    .mana2 {
+                        position: absolute;
+                        font-size: 20px;
+                        font-family: sans-serif;
+                        font-weight: bold;
+                        color: #301934;
+                        top: 4230px;
+                        right: 100px;
+                        width: 500px;
+                    }
